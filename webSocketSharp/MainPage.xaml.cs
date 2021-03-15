@@ -26,7 +26,7 @@ namespace webSocketSharp
             if (deviceSocket != null)
                 deviceSocket.Close();
 
-            deviceSocket = new DeviceSocket();
+            deviceSocket = new DeviceSocket(txtUserName.Text, txtPassword.Text, txtAddressPort.Text);
 
             timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromMilliseconds(50);
@@ -38,7 +38,7 @@ namespace webSocketSharp
         //update head position display on UI
         private void Timer_Tick(object sender, object args)
         {
-            HeadMatrix.Text = deviceSocket.Head + "\n\n" + deviceSocket.Origin;
+            HeadMatrix.Text = deviceSocket.Result;
         }
 
         //disconnect websocket from hololens

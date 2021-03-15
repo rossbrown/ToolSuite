@@ -9,11 +9,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button x:Name="btnConnect" Content="Connect" Height="50" Margin="10,10,0,0" VerticalAlignment="Top" Width="180" Click="btnConnect_Click"/>
-        <TextBlock x:Name="HeadMatrix" HorizontalAlignment="Left" Margin="283,10,0,0" 
+        <Button x:Name="btnConnect" Content="Connect" Height="50" Margin="10,224,0,0" VerticalAlignment="Top" Width="180" Click="btnConnect_Click"/>
+        <TextBlock x:Name="HeadMatrix" HorizontalAlignment="Left" Margin="283,20,0,0" 
                    TextWrapping="Wrap" VerticalAlignment="Top" 
                    Height="650" Width="383"
-                   Text="Cow"/>
-        <Button x:Name="btnDisconnect" Content="Disconnect" Height="50" Margin="10,109,0,0" VerticalAlignment="Top" Width="180" Click="btnDisconnect_Click"/>
+                   Text="Status..."/>
+        <Button x:Name="btnDisconnect" Content="Disconnect" Height="50" Margin="10,321,0,0" VerticalAlignment="Top" Width="180" Click="btnDisconnect_Click"/>
+        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Height="44" Margin="10,20,0,0" Text="rbrown" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="44" Margin="10,83,0,0" Text="ARL 300456" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="txtAddressPort" HorizontalAlignment="Left" Height="44" Margin="10,143,0,0" Text="127.0.0.1:10080" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
     </Grid>
 </Page>
