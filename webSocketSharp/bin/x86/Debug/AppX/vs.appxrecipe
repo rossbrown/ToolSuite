@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\TiaoPi LaoHu\Desktop\Unity\ToolSuite\webSocketSharp\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>9AA76274E6107CBAC92DA589BB5C85018131C217C7BC3BAEA81906798AC592E4</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>868DF08CE489E144F40C75A4C76798BFD450DDE35EC7A36350783B42020ED6D3</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>56ee9fbd-d9df-4d5c-be1b-41d4a9425189_1.0.0.0_x86__1cwxhvqzqge7j</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>56ee9fbd-d9df-4d5c-be1b-41d4a9425189_1cwxhvqzqge7j!App</RegisteredUserModeAppID>
     <RegisteredPackageID>56ee9fbd-d9df-4d5c-be1b-41d4a9425189</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\TiaoPi LaoHu\Desktop\Unity\ToolSuite\webSocketSharp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-12T22:17:02.918</Modified>
+      <Modified>2021-03-16T22:21:24.335</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\TiaoPi LaoHu\Desktop\Unity\ToolSuite\webSocketSharp\bin\x86\Debug\webSocketSharp.exe">
       <PackagePath>entrypoint\webSocketSharp.exe</PackagePath>
-      <Modified>2021-03-12T22:17:02.533</Modified>
+      <Modified>2021-03-16T22:21:22.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TiaoPi LaoHu\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -98,11 +98,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TiaoPi LaoHu\Desktop\Unity\ToolSuite\webSocketSharp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-12T22:17:02.477</Modified>
+      <Modified>2021-03-16T22:21:22.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TiaoPi LaoHu\Desktop\Unity\ToolSuite\webSocketSharp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-12T22:17:02.477</Modified>
+      <Modified>2021-03-16T22:21:22.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,11 +110,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TiaoPi LaoHu\Desktop\Unity\ToolSuite\webSocketSharp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-03-08T22:30:50.848</Modified>
+      <Modified>2021-03-16T22:21:23.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TiaoPi LaoHu\Desktop\Unity\ToolSuite\webSocketSharp\bin\x86\Debug\Core\webSocketSharp.exe">
       <PackagePath>webSocketSharp.exe</PackagePath>
-      <Modified>2021-03-12T22:17:02.914</Modified>
+      <Modified>2021-03-16T22:21:23.521</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
